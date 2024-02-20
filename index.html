@@ -338,9 +338,9 @@
 
       <div class="mt-2">
         <div class="hero min-h-[550px]  ">
-          <div class="hero-content flex-col lg:flex-row justify-between gap-24   w-full">
+          <div class="hero-content flex-col lg:flex-row justify-between lg:gap-24   w-full">
             <div>
-              <img src="images/others/faq.png" class=" h-full max-w-md rounded-lg shadow-2xl" />
+              <img src="images/others/faq.png" class=" h-full  max-w-52 md:max-w-md rounded-lg shadow-2xl" />
 
 
             </div>
@@ -395,8 +395,23 @@
 
   </main>
 
-  <footer>
+  <footer class="footer p-10 bg-neutral text-neutral-content">
+    <div class="md:container md:mx-auto grid grid-cols-2  ">
+      <aside class="flex-1">
 
+        <p>ACME Industries Ltd.<br>Providing reliable tech since 1992</p>
+      </aside> 
+      <nav class=" float-right">
+        <h6 class="footer-title">Social</h6> 
+        <div class="grid grid-cols-1 gap-4">
+          <a href=""> <img class="w-36" src="images/others/android.png" alt=""></a>
+          <a href=""> <img class="w-36" src="images/others/ios.png" alt=""></a>
+        </div>
+      </nav>
+
+
+    </div>
+    
   </footer>
 </body>
 
